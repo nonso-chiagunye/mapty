@@ -10,7 +10,6 @@ const inputElevation = document.querySelector('.form__input--elevation');
 
 // Using the Geolocation API
 
-console.log('----Using the Geolocation API-----');
 // let map, mapEvent;
 
 class Workout {
@@ -103,8 +102,8 @@ class App {
     const { latitude } = position.coords;
     const { longitude } = position.coords;
 
-    console.log(latitude, longitude);
-    console.log(`https://www.google.com/maps/@${latitude},${longitude}`);
+    // console.log(latitude, longitude);
+    // console.log(`https://www.google.com/maps/@${latitude},${longitude}`);
 
     const coords = [latitude, longitude];
 
